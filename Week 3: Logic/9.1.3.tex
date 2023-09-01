@@ -13,6 +13,15 @@
 \section{}
     Form a logical expression using the logical statements \(A,B,C\) and the operators \(\wedge,\vee,\neg\) , which is true if at least two of the statements are true, but false otherwise. Note: not every operator must be used, but you can use no others.
 
+$(A\land B)\lor\neg(\neg B \lor \neg C)\lor(A \land C)$
+
+
+$\begin{array}{c|c|c|c|c|c|c|c}A&B&C& A\land B& \neg(\neg B\lor \neg C)&A\land C&(A\land B)\lor\neg(\neg B\lor\neg C)&(A\land B)\lor\neg(\neg B\lor\neg C)\lor(A\land C)\\
+\hline T&T&T&T&T&T&T&T \\ \hline T&T&F&T&F&F&T&T \\ \hline T&F&F&F&F&F&F&F \\ \hline F&T&T&F&T&F&T&T \\ \hline F&F&T&F&F&F&F&F
+\\ \hline F&T&F&F&F&F&F&F \\ \hline T&F&T&F&F&T&F&T \\ \hline F&F&F&F&F&F&F&F
+\end{array}$
+
+
 \section{}
     Simplify \(\neg(A\wedge\neg(B\wedge\neg(A\wedge\neg B)))\). In particular, your answer should only have negations applied to logical variables and not compound statements.
     
