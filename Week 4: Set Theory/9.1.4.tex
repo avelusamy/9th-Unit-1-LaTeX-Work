@@ -24,4 +24,7 @@
 \section{}
     Consider sets $A$, $B$, and $C$.
     Prove that $A\times(B\cup C)=(A\times B)\cup(A\times C)$.
+	\begin{proof}
+	Let $x\in A$, $y\in(B\cup C)$, $b\in B$, $c\in C$. $A\times(B\cup C)$ returns a set of ordered pairs ($x$,$y$). $A\times B$ gives ordered pairs ($x$,$b$), $A\times C$ gives ordered pairs ($x$, $c$). $B\cup C$ is the set of elements in B or C. This implies $b\in B \implies b\in(B\cup C)$ and $c\in C\implies c\in(B\cup C)$, meaning that $B\subseteq (B\cup C)$ and $C\subseteq (B\cup C)$. Because of this, $y$ can be either $b$ or $c$. Therefore, $(A\times B)\cup(A\times C)\subseteq A\times(B\cup C)$. It has already been shown that $y$ can be $b$ or $c$. $(A\times B)\cup(A\times C)$ will give ($x$,$b$) or ($x$,$c$). Therefore, $A\times(B\cup C)\subseteq(A\times B)\cup(A\times C)$. Since $A\times(B\cup C)$ and $(A\times B)\cup(A\times C)$ are subsets of each other, they are equivalent. Hence, $A\times(B\cup C)=(A\times B)\cup(A\times C)$. 
+	\end{proof}
 \end{document}
