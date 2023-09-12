@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.8.16)  11 SEP 2023 11:17
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.8.16)  11 SEP 2023 19:08
  restricted system commands enabled.
 **9.1.4.tex
 (./9.1.4.tex
@@ -535,10 +535,10 @@ Here is how much of LuaTeX's memory you used:
  501 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 54 glue_spec,
  7 attribute_list, 2 write nodes
-   avail lists: 2:299,3:219,4:33,5:230,6:26,7:2892,8:19,9:136,10:16,11:60
+   avail lists: 2:323,3:253,4:33,5:254,6:26,7:3220,8:19,9:150,10:16,11:64
  33236 multiletter control sequences out of 65536+600000
  56 fonts using 3614911 bytes
- 100i,6n,98p,877b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,8n,98p,877b,214s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentyp
 e/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroma
@@ -546,7 +546,7 @@ n12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 9.1.4.pdf (1 page, 48779 bytes).
+Output written on 9.1.4.pdf (1 page, 49301 bytes).
 
 PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
